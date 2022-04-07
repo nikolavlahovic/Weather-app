@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="Weather app" content="Weather app">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Weather app">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" /></head>
+
+<body>
+    <div class="weather-card">
+        <div class="search-line">
+            <input type="text" id='search' placeholder="Find a city..." />
+            <button id="btn" ><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z"
+                        clip-rule="evenodd"></path>
+                    <path fill-rule="evenodd"
+                        d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"
+                        clip-rule="evenodd"></path>
+                </svg></button>
+        </div>
+        <div class="output">
+            <h2 class="city">Type a city name</h2>
+            <h1 class="degrees"></h1>
+            <img class="icon" alt=""></img>
+            <div class="humidity"></div>
+            <div class="description"></div>
+            <div class="wind"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+    
+</body>
+
+</html>
