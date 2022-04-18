@@ -30,7 +30,7 @@ document.querySelector('#btn').addEventListener('click', function () {
     let city = document.querySelector('#search').value;
     weather.getWeather(city);
 });
-const loger;
+
 
 
 
